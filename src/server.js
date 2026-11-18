@@ -15,6 +15,9 @@ const db = mysql.createPool({
   port: process.env.DB_PORT,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
+  ssl: {
+    rejectUnauthorized: true,
+  },
 });
 
 app.post("/add", async (req, res) => {
