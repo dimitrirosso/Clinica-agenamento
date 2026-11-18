@@ -32,6 +32,7 @@ app.post("/add", async (req, res) => {
 
     res.status(201).send({ mensagem: "cadastrado" });
   } catch (erro) {
+    console.error(erro);
     res.status(500).send({ mensagem: erro });
   }
 });
@@ -42,6 +43,7 @@ app.get("/agendamentos", async (req, res) => {
 
     res.status(200).send(resultado);
   } catch (erro) {
+    console.error(erro);
     res.status(500).send({ mensagem: "erro ao carregar" });
   }
 });
@@ -57,6 +59,7 @@ app.delete("/agendamentos/:index", async (req, res) => {
 
     res.status(200).send({ mensagem: "Agendamento deletado" });
   } catch (erro) {
+    console.error(erro);
     res.status(500).send({ mensagem: "erro ao deletar" });
   }
 });
