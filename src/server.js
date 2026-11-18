@@ -43,8 +43,8 @@ app.get("/agendamentos", async (req, res) => {
 
     res.status(200).send(resultado);
   } catch (erro) {
-    console.error(erro);
-    res.status(500).send({ mensagem: "erro ao carregar" });
+    console.error("ERRO GET:", erro);
+    res.status(500).send({ mensagem: erro.message, codigo: erro.code });
   }
 });
 
