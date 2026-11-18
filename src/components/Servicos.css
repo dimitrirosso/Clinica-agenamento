@@ -1,0 +1,75 @@
+.servicos__principais {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 30px 80px;
+  gap: 50px;
+}
+
+.container__servicos {
+  padding: 30px 0;
+}
+
+.titulo__servicos {
+  font-size: 12px;
+  color: #00504a;
+}
+
+.titulos__servicos {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.segundo__titulo__servicos {
+  color: #001f26;
+  font-size: 28px;
+}
+
+.terceiro__titulo__servicos {
+  color: #2e3540;
+  font-size: 15px;
+}
+
+.limpeza__servicos,
+.clareamento__servicos,
+.ortondontia__servicos,
+.implantes__servicos {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 12px;
+}
+
+.limpeza__servicos h3,
+.clareamento__servicos h3,
+.ortondontia__servicos h3,
+.implantes__servicos h3 {
+  font-size: 18px;
+  color: #001f26;
+}
+
+.limpeza__servicos p,
+.clareamento__servicos p,
+.ortondontia__servicos p,
+.implantes__servicos p {
+  color: #2e3540;
+  font-size: 15px;
+}
+
+.titulos__servicos {
+  padding: 0 70px;
+}
+
+.fa-wand-magic-sparkles,
+.fa-sun,
+.fa-grip,
+.fa-wrench {
+  background-color: #4edea3;
+  color: #003733;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 7px;
+}

@@ -1,0 +1,66 @@
+.container__cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #00a572;
+}
+
+.fa-tooth {
+  background-color: #26c289;
+  font-size: 22px;
+  height: 25px;
+  padding: 8px;
+  border-radius: 14px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 19px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2e3540;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  color: #00a572;
+  transition: 0.2s;
+}
+
+.botao__whats {
+  display: flex;
+  align-items: center;
+  background-color: #00a572;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao__whats:hover {
+  background-color: #13593f;
+  transition: 0.3s;
+}
+
+.fa-message {
+  font-size: 18px;
+}

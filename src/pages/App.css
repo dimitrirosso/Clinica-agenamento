@@ -1,0 +1,12 @@
+.secao1 {
+  display: flex;
+  padding: 100px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secao2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

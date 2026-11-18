@@ -1,0 +1,56 @@
+.atendimento__p {
+  background-color: #fffcfc;
+  width: 35%;
+  color: #00a572;
+  border-radius: 20px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.texto__principal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container__hero {
+  width: 47%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #001f26;
+}
+
+.info__hero {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.pontualidade {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.convenio {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.fa-circle-check {
+  color: #00a572;
+}
+
+.fa-shield {
+  color: #00a572;
+}
+
+.cuidado__p {
+  font-size: 18px;
+  color: #2e3540;
+}

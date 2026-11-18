@@ -1,0 +1,118 @@
+.container__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 45%;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 16px;
+}
+
+.cabecalho__form {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a4a5a7;
+  padding: 0 0 10px 0;
+  align-items: center;
+}
+
+.texto__online__form {
+  font-size: 13px;
+  color: #13593f;
+  align-items: center;
+}
+
+.texto__calendario__form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.inputs__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.numero,
+.nome {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #eeeded;
+}
+
+.numero__form,
+.nome__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.numero__form p,
+.nome__form p {
+  font-size: 14px;
+}
+
+.outros__inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+  margin-top: 10px;
+}
+.procedimento,
+.data__form,
+.profissional__form,
+.horario__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.data__form input,
+.horario__form input {
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  background-color: #eeeded;
+}
+
+.procedimento select,
+.profissional__form select {
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  background-color: #eeeded;
+}
+
+.botao__check {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 14px;
+  gap: 5px;
+  border: none;
+  background-color: #26c289;
+  color: white;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao__check:hover {
+  background-color: #13593f;
+  transition: 0.3s;
+}
+
+.texto__calendario__form {
+  font-size: 24px;
+}
+
+.fa-calendar {
+  color: #26c289;
+}
