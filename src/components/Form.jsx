@@ -20,13 +20,16 @@ function Form({ atualizarAgendamentos }) {
     };
 
     try {
-      const resposta = await fetch("http://localhost:3000/add", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const resposta = await fetch(
+        "https://clinica-agenamento.onrender.com/add",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(agendamento),
         },
-        body: JSON.stringify(agendamento),
-      });
+      );
 
       if (!resposta.ok) {
         throw new Error("erro ao cadastrar!");

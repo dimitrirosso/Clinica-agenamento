@@ -12,9 +12,12 @@ function App() {
 
   async function buscarAgendamento() {
     try {
-      const resposta = await fetch("http://localhost:3000/agendamentos", {
-        method: "GET",
-      });
+      const resposta = await fetch(
+        "https://clinica-agenamento.onrender.com/agendamentos",
+        {
+          method: "GET",
+        },
+      );
 
       if (!resposta.ok) {
         throw new Error("Erro ao agendar!");

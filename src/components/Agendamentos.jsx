@@ -4,7 +4,7 @@ function Agendamentos({ agendamentos, atualizarAgendamentos }) {
   async function deletar(indice) {
     try {
       const resposta = await fetch(
-        `http://localhost:3000/agendamentos/${indice}`,
+        `https://clinica-agenamento.onrender.com/agendamentos/${indice}`,
         {
           method: "DELETE",
         },
